@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: springboot-app
+    env: java
+    buildCommand: "./mvnw clean install"
+    startCommand: "java -jar target/SpringbootBootstrap-0.0.1-SNAPSHOT.jar"
